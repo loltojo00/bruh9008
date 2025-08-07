@@ -1,0 +1,1 @@
+gobuster dir -u http://82.29.159.204 -w /path/to/DirBuster-2007_directory-list-2.3-medium.txt
