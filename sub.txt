@@ -1,0 +1,94 @@
+admin.politecnicobrauliopaulino.edu.do
+test.airflow.politecnicobrauliopaulino.edu.do
+staging.analytics.politecnicobrauliopaulino.edu.do
+forum.staging.analytics.politecnicobrauliopaulino.edu.do
+fr.staging.analytics.politecnicobrauliopaulino.edu.do
+webdisk.staging.analytics.politecnicobrauliopaulino.edu.do
+asistencia.politecnicobrauliopaulino.edu.do
+campus.politecnicobrauliopaulino.edu.do
+login.politecnicobrauliopaulino.edu.do
+www.login.politecnicobrauliopaulino.edu.do
+imap.www.login.politecnicobrauliopaulino.edu.do
+sitemap.politecnicobrauliopaulino.edu.do
+sitemaps.politecnicobrauliopaulino.edu.do
+webmail.politecnicobrauliopaulino.edu.do
+www1.politecnicobrauliopaulino.edu.do
+www.www1.politecnicobrauliopaulino.edu.do
+politecnicobrauliopaulino.edu.do
+politecnicobrauliopaulino.edu.do
+politecnicobrauliopaulino.edu.do
+campus.politecnicobrauliopaulino.edu.do
+campus.politecnicobrauliopaulino.edu.do
+asistencia.politecnicobrauliopaulino.edu.do
+asistencia.politecnicobrauliopaulino.edu.do
+imap.login.politecnicobrauliopaulino.edu.do
+analytics.politecnicobrauliopaulino.edu.do
+www.webdisk.staging.analytics.politecnicobrauliopaulino.edu.do
+pop.politecnicobrauliopaulino.edu.do
+www.sitemaps.politecnicobrauliopaulino.edu.do
+www.test.airflow.politecnicobrauliopaulino.edu.do
+m.politecnicobrauliopaulino.edu.do
+minupbp.politecnicobrauliopaulino.edu.do
+minupbp.politecnicobrauliopaulino.edu.do
+
+-----------------------------------------------------------------
+
+admin.politecnicobrauliopaulino.edu.do
+test.airflow.politecnicobrauliopaulino.edu.do
+www.test.airflow.politecnicobrauliopaulino.edu.do
+analytics.politecnicobrauliopaulino.edu.do
+staging.analytics.politecnicobrauliopaulino.edu.do
+forum.staging.analytics.politecnicobrauliopaulino.edu.do
+fr.staging.analytics.politecnicobrauliopaulino.edu.do
+webdisk.staging.analytics.politecnicobrauliopaulino.edu.do
+www.webdisk.staging.analytics.politecnicobrauliopaulino.edu.do
+asistencia.politecnicobrauliopaulino.edu.do
+campus.politecnicobrauliopaulino.edu.do
+login.politecnicobrauliopaulino.edu.do
+www.login.politecnicobrauliopaulino.edu.do
+imap.login.politecnicobrauliopaulino.edu.do
+imap.www.login.politecnicobrauliopaulino.edu.do
+m.politecnicobrauliopaulino.edu.do
+minupbp.politecnicobrauliopaulino.edu.do
+pop.politecnicobrauliopaulino.edu.do
+sitemap.politecnicobrauliopaulino.edu.do
+sitemaps.politecnicobrauliopaulino.edu.do
+www.sitemaps.politecnicobrauliopaulino.edu.do
+webmail.politecnicobrauliopaulino.edu.do
+www1.politecnicobrauliopaulino.edu.do
+www.www1.politecnicobrauliopaulino.edu.do
+
+
+-------------------------------------------------------------
+
+luksam09k@cloudshell:~ (intense-context-417704)$ nmap -sV -p- -T4 www.test.airflow.politecnicobrauliopaulino.edu.do
+
+Starting Nmap 7.94SVN ( https://nmap.org ) at 2025-08-06 22:36 UTC
+
+Nmap scan report for www.test.airflow.politecnicobrauliopaulino.edu.do (185.27.134.19)
+
+Host is up (0.093s latency).
+
+Not shown: 65528 closed tcp ports (conn-refused)
+
+PORT      STATE    SERVICE  VERSION
+
+80/tcp    open     http     nginx 1.28.0
+
+443/tcp   open     ssl/http nginx
+
+3306/tcp  open     mysql    MySQL 5.5.28
+
+9389/tcp  filtered adws
+
+27015/tcp open     ssh      OpenSSH 5.3 (protocol 2.0)
+
+36240/tcp filtered unknown
+
+65529/tcp filtered unknown
+
+
+
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+
+Nmap done: 1 IP address (1 host up) scanned in 156.96 seconds
